@@ -5,6 +5,8 @@ A basic infinite scrolling pattern for JavaScript.
 
 The unlimited pictures are pulling from Unsplash API with animated loader effect.
 
+![alt text](https://github.com/defeinium/Unsplash-API-Infinite-Scroll/blob/master/image.jpg?raw=true)
+
 
 
 
