@@ -5,21 +5,21 @@ let ready = false;
 let imagesLoaded = 0;
 let totalImages = 0;
 let photosArray = [];
+let initialLoad = true;
 
 //Unsplash API
 //`template string`
-const count = 10;
+const count = 10; 
 const apiKey = 'jVUNhC7Df7h2v0d7cK__gf4DvwG8gC-rrI2FarB7J20';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`; //added random, apiKey and ${count};
 
 //Image Loader, check if all images were loaded
 function imageLoaded() {
-    console.log('Image loaded');
     imagesLoaded ++;
     if (imagesLoaded === totalImages){
         ready = true;
-        console.log('ready = ', ready);
         imagesLoaded = 0;
+        count = 10;
     }
 }
 //Helper function to set attribute on DOM elements
