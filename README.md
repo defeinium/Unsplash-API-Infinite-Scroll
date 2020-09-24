@@ -9,6 +9,7 @@ The unlimited pictures are pulling from Unsplash API with animated loader effect
 HTML
 CSS
 JavaScript
+Unsplash API 
 
 # Project Demonstration
 [LiveView](https://defeinium.github.io/Unsplash-API-Infinite-Scroll/ "Unsplash API Infinite Scroll")
